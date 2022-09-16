@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Loader">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{9d2aab32-1381-49d0-a0fd-610b4b19bb0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Loader\loader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Geometry\geometry_frame.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Loader\factory_geometry.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Geometry\geometry_mesh.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Loader\factory_material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Geometry\material_backofen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Loader\loader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Geometry\geometry_frame.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Loader\factory_geometry.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Geometry\geometry_mesh.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Loader\factory_material.h" />
+    <ClInclude Include="source\Geometry\material_backofen.h" />
+  </ItemGroup>
+</Project>
